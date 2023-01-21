@@ -20,10 +20,9 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Rectangle;
-
 import javafx.scene.text.Text;
 
-
+//
 public class Blackjack_Game extends Application {
 
     private int score_dealer = 0;
