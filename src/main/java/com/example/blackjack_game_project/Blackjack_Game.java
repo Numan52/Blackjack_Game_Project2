@@ -50,7 +50,7 @@ public class Blackjack_Game extends Application {
         Rectangle main_rectangle = new Rectangle(1260, 670);
         main_rectangle.setArcWidth(20);
         main_rectangle.setArcHeight(20);
-        Image images = new Image("C:\\Users\\sinna\\IdeaProjects\\Blackjack_Game_Project_v2.1\\src\\main\\resources\\com\\example\\blackjack_game_project\\background.png");
+        Image images = new Image("com/example/blackjack_game_project/background.png");
         main_rectangle.setFill(new ImagePattern(images));
         Rectangle right_rectangle = new Rectangle(300, 500);
         right_rectangle.setArcWidth(20);      //Das ist für runde Ecken
