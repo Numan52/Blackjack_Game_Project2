@@ -36,7 +36,11 @@ public class Card extends Parent {
         }
 
         String displayName() { //take the first letter from the name of the card (Z.B KING = K, ......)
-            return ordinal() < 9 ? String.valueOf(value) : name().substring(0, 1); //function "name()" zeigt den Namen im enum
+            if (ordinal() < 9) {
+                return String.valueOf(value);
+            } else {
+                return name().substring(0, 1);
+            }  //function "name()" zeigt den Namen im enum
         }
     }
 
